@@ -1,15 +1,15 @@
 /*  */
 .abc{
     position: absolute;
-    left: 30%;
+    /* left: 30%; */
     color: brown;
-    top: 200px;
+    /* top: 200px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .btn{
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 @import url(https://fonts.googleapis.com/css?family=BenchNine:700);
