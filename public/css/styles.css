@@ -1,7 +1,7 @@
 /*  */
 .abc{
-  left: 40%;
-  top: 40%;
+  /* left: 40%; */
+  /* top: 40%; */
   position: absolute;
   /* left: 30%; */
   color: brown;
@@ -13,7 +13,16 @@
   align-content: space-around;
   align-items: center;
 }
-
+.content {
+  width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: space-around;
+    position: absolute;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
 .btn{
     /* margin-left: 60px; */
 }
@@ -27,9 +36,9 @@
   display: inline-block;
   font-family: 'BenchNine', Arial, sans-serif;
   font-size: 1em;
-  font-size: 22px;
+  font-size: 5px;
   line-height: 1em;
-  margin: 15px 40px;
+  margin: 15px 12px;
   outline: none;
   padding: 12px 40px 10px;
   position: relative;

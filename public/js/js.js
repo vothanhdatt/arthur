@@ -4,8 +4,8 @@ let content = document.querySelector(".content");
 let body = document.querySelector(".body");
 
 btnNo.addEventListener("click", function () {
-  let y = random(500);
-  let x = random(300);
+  let y = random(300);
+  let x = random(150);
   btnNo.style.transform = `translateY(${y}px) translateX(${x}px)`;
 });
 
